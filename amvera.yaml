@@ -4,7 +4,7 @@ meta:
 
 build:
   language: go
-  version: "1.21"
+  version: "1.22"
 
 deploy:
   command: ./mafin
