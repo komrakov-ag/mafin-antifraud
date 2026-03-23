@@ -1,0 +1,17 @@
+meta:
+  environment: production
+  name: mafin-antifraud
+
+build:
+  language: go
+  version: "1.21"
+
+deploy:
+  command: ./mafin
+  port: 8080
+
+variables:
+  - key: ENVIRONMENT
+    value: PRODUCTION
+  - key: PORT
+    value: 8080
